@@ -1,0 +1,62 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 10px;
+    background-color: #edddd4;
+}
+
+.hero {
+    display: flex;
+    gap: 28px;
+    padding: 36px;
+    align-items: center;
+}
+
+.hero-left {
+    flex:1.4 ;
+    background-color: #462521;
+    padding: 15px;
+    border-radius: 24px;
+}
+
+.hero-left h3 {
+    color: #edddd4;
+}
+
+.hero-left h2 {
+    color: #edddd4;
+}
+
+.hero-left p {
+    color: #edddd4;
+    line-height: 1.6;
+}
+
+.Name {
+    color: #edddd4;
+    font-weight: 800;
+}
+
+.hero-right {
+    flex: 0.6;
+    align-self: center;
+}
+
+.foto {
+    background: #7b886f;
+    border-radius: 24px;
+    padding: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2)
+}
+
+.foto img {
+    border-radius: 18px;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+img {
+    object-fit: cover;
+}
