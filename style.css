@@ -14,8 +14,12 @@ body {
     align-items: center;
 }
 
+.hero-left-wrap {
+    flex: 1.4;
+    margin-right: 48px;
+}
+
 .hero-left {
-    flex:1.4 ;
     background-color: #462521;
     padding: 15px;
     border-radius: 24px;
@@ -23,6 +27,11 @@ body {
 
 .hero-left h3 {
     color: #edddd4;
+}
+
+.Name {
+    color: #edddd4;
+    font-weight: 800;
 }
 
 .hero-left h2 {
@@ -34,9 +43,16 @@ body {
     line-height: 1.6;
 }
 
-.Name {
-    color: #edddd4;
-    font-weight: 800;
+.social-links {
+    margin-top: 16px;
+    padding-left: 12px;
+    display: flex;
+    gap: 16px;
+}
+
+.social-links a {
+    color: #462521;
+    font-size: 36px;
 }
 
 .hero-right {
@@ -54,9 +70,35 @@ body {
 .foto img {
     border-radius: 18px;
     width: 100%;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
 img {
     object-fit: cover;
+}
+
+.background {
+    padding: 10px 36px;
+}
+
+.background-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #462521;
+}
+
+.background-content {
+    display: flex;
+    gap: 20px;
+}
+
+.background1,
+.background2,
+.background3 {
+    flex: 1;
+    background-color:#7b886f;
+    padding: 10px;
+    border-radius: 24px;
+    color: #19381f;
 }
